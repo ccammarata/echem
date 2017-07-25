@@ -1,6 +1,5 @@
 library(foreign)
-setwd("E:/echem_March_2017/CSVs")
-directory <-list.files("E:/echem_March_2017/CSVs")
+directory <-list.files("CSVs")
 L <- length(directory)
 
 steps <- matrix(data = NA, nrow =L*2, ncol=7)
